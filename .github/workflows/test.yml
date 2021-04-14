@@ -22,7 +22,7 @@ jobs:
         laravel: ['6.*', '7.*', '8.*']
         os: [ubuntu-latest, windows-latest]
 
-    name: 'PHP ${{ matrix.php }} / ${{ matrix.laravel }}'
+    name: 'PHP ${{ matrix.php }} / L ${{ matrix.laravel }} / ${{ matrix.os }}'
 
     steps:
       - uses: actions/checkout@master
